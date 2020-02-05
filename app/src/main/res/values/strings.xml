@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kviz</string>
+    <string name="title">FET</string>
+    <string name="question">0</string>
+    <string name="natpis">Pitanje</string>
+    <string name="brojac">0:00</string>
+</resources>

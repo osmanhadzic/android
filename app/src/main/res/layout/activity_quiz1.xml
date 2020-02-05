@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz1"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/txtv_question"
+            android:text="@string/question"
+            android:textSize="42sp"
+            android:padding="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtv_opis"
+            android:text="@string/natpis"
+            android:textSize="24sp"
+            android:padding="24dp"
+            android:layout_below="@+id/txtv_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/brojac"
+            android:text="@string/brojac"
+            android:textSize="42sp"
+            android:padding="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/title"
+            android:textSize="24sp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/brojac"
+            android:padding="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/pitanje"
+            android:layout_centerInParent="true"
+            android:text="@string/question"
+            android:textSize="42sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <GridLayout
+            android:columnCount="3"
+            android:rowCount="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                />
+            <Button
+                android:layout_columnWeight="2"
+                android:layout_rowWeight="1"/>
+            <Button
+                android:layout_columnWeight="3"
+                android:layout_rowWeight="1"/>
+
+        </GridLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
