@@ -43,23 +43,28 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
 
-            android:text="Nasov"
-            android:textSize="18sp"
+            android:text="Elketrostatika"
+            android:textSize="10sp"
             ></Button>
         <Button
             android:id="@+id/btn2"
             android:layout_columnWeight="2"
             android:layout_rowWeight="1"
+            android:text="Istosmjerna struja"
+            android:textSize="10sp"
             />
         <Button
             android:id="@+id/btn3"
             android:layout_columnWeight="1"
             android:layout_rowWeight="2"
+            android:text="Magnetostatika"
+            android:textSize="10sp"
             />
         <Button
             android:id="@+id/btn4"
             android:layout_columnWeight="2"
             android:layout_rowWeight="2"
+
             />
         <Button
             android:layout_columnWeight="1"

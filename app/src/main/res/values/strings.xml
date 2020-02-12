@@ -4,4 +4,10 @@
     <string name="question">0</string>
     <string name="natpis">Pitanje</string>
     <string name="brojac">0:00</string>
+    <string name="sledece">Next</string>
+    <string name="ispis">Ovdje ce biti pitanje</string>
+    <string name="ispisO">Ovdje ce biti dogovor</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
 </resources>
